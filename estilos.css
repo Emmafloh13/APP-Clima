@@ -1,0 +1,53 @@
+body{
+    background-image: url(./clima1.jpg);
+    width: 95vw;
+    height: 95vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(157, 226, 210);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.form_search {
+    display: flex;
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+}
+.form_search input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.form_search .btn_search {
+    background: rgba(11, 98, 185, 0.892);
+    color: #FFF;
+    padding: 8px 20px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.form_search .btn_search:hover {
+    background: #0b62b9;
+}
+
+.container {
+    transition: background-color 0.5s ease-in-out;
+}
+
+.caliente {
+    background-color: #ff6347; 
+}
+
+.moderado {
+    background-color: #87ceeb; 
+}
+
+.frio {
+    background-color: #00fa9a; 
+}
+
